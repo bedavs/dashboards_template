@@ -1,0 +1,17 @@
+Package: xxxx
+Title: Tittle
+Version: 2019.01.01
+Authors@R: person("your name", "your surname", email = "youremail@fhi.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.4.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  devtools,
+  testthat,
+  data.table
+Suggests: testthat
+Remotes: folkehelseinstituttet/fhi
+Additional_repositories: https://folkehelseinstituttet.github.io/drat/, https://raubreywhite.github.io/drat/
+RoxygenNote: 6.0.1
