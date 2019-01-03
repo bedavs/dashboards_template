@@ -10,7 +10,9 @@ LazyData: true
 Imports: 
   devtools,
   testthat,
-  data.table
+  data.table,
+  ggplot2,
+  fhi
 Suggests: testthat
 Remotes: folkehelseinstituttet/fhi
 Additional_repositories: https://folkehelseinstituttet.github.io/drat/, https://raubreywhite.github.io/drat/
